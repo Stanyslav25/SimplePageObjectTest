@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Page Object test example">
+
+    <test name="MailTest">
+        <parameter name="appURL" value="http://google.com/"/>
+        <classes>
+            <class name="com.pack.common.tests.SearchPageTest"/>
+        </classes>
+    </test>
+
+</suite>
